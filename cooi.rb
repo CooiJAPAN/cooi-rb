@@ -4,7 +4,7 @@
 #
 class Hirase
   @@letters ||= ['c', 'o', 'i', 's', '']
-  @@cooi_words ||= %w(Cooi Cisco Sicco Siso Oisii Isoiso)
+  @@cooi_words ||= %w(Cooi Cisco Sicco Siso Oisii Isoiso Cocco)
 
   class << self
     def random_letter
