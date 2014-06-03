@@ -20,13 +20,13 @@ class Hirase
     end
 
     def shout(word)
-      puts "" 
-      puts "" 
+      puts ""
+      puts ""
       puts "    　＿人人人人人人人人人＿ "
       puts "    　＞　 #{word} JAPAN! 　＜"
       puts "    　￣^Y^Y^Y^Y^Y^Y^Y^Y^Y￣ "
     end
-    
+
     def main
       loop do
         word = length.times.reduce('') { |w| w + random_letter }.capitalize!
