@@ -12,7 +12,7 @@ class Hirase
     end
 
     def length
-      rand(3) + rand(3) + 1
+      2.times.reduce(1) { |l| l + rand(3) }
     end
 
     def cooi?(its)
